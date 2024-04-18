@@ -9,7 +9,7 @@ function App() {
   return (
     <Provider store={store}>
       <div className="container">
-        <h1>Notes App</h1>
+        <h1>Notes</h1>
         <AddNote />
         <NotesList />
       </div>
