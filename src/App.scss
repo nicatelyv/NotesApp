@@ -13,7 +13,8 @@ body {
 
 h1 {
   color: #333;
-  font-weight: 900;
+  font-weight: 600;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 form {
@@ -27,10 +28,11 @@ input {
   border-radius: 5px;
   border: 1px solid gray;
   outline: none;
+  margin-top: 10px;
 }
 
 button {
-  padding: 10px 20px;
+  padding: 8px 25px;
   border-radius: 5px;
   border: none;
   background-color: rgb(0, 123, 255);
