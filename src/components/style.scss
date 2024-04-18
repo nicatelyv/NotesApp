@@ -1,0 +1,47 @@
+.note-list {
+  list-style: none;
+  padding: 0;
+}
+
+.note-item {
+  margin-bottom: 20px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.note-item.pinned {
+  border: 3px solid #ffc107;
+}
+
+.note-textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  resize: vertical;
+  outline: none;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.pin-button,
+.delete-button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.pin-button {
+  background-color: goldenrod;
+  color: #fff;
+}
+
+.delete-button {
+  background-color: #dc3545;
+}
