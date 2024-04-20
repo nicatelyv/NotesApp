@@ -42,11 +42,6 @@ button {
   transition: .5s;
 }
 
-button:hover {
-  background-color: rgb(0, 86, 179);
-  transition: .5s;
-}
-
 ul {
   list-style: none;
   padding: 0;
@@ -65,8 +60,4 @@ li {
 li button {
   margin-left: 10px;
   background-color: rgb(220, 53, 69);
-}
-
-li button:hover {
-  background-color: rgb(200, 35, 51);
 }
