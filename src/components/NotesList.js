@@ -30,7 +30,7 @@ const NoteList = () => {
             className="note-textarea"
             value={note.text}
             onChange={(e) => handleUpdate(note.id, e.target.value)}
-            rows={4}
+            rows={6}
             cols={50}
           />
           <div className="actions">
@@ -48,7 +48,7 @@ const NoteList = () => {
             className="note-textarea"
             value={note.text}
             onChange={(e) => handleUpdate(note.id, e.target.value)}
-            rows={4}
+            rows={6}
             cols={50}
           />
           <div className="actions">
